@@ -13,8 +13,8 @@ ax=plt.axes()
 ax.set_title("GLAT vs GLONG")
 ax.set_xlabel("GLONG (degrees)")
 ax.set_ylabel("GLAT (degrees)")
-ax.set_xlim(0,240)
-ax.set_ylim(-50,90)
+ax.set_xlim(0,360)
+ax.set_ylim(-90,90)
 
 #read filenames and sort by prefix
 os.chdir('Data')
@@ -46,7 +46,7 @@ for i in filelist:
 
 #Generate a line passing through galactic latitude of zero degrees
 x=[0];y=[0]
-for i in range(240):
+for i in range(360):
     x.append(i)
     y.append(0)
 ax.scatter(x,y,marker=".")
