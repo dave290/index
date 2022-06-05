@@ -17,7 +17,7 @@ ax.set_xlim(0,360)
 ax.set_ylim(-90,90)
 
 #read filenames and sort by prefix
-os.chdir('Data')
+os.chdir('index_archive')
 filelist=os.listdir(".")
 filelist.sort()
 print(filelist)
