@@ -9,7 +9,7 @@ import os
 import collections
 
 #read filenames and sort by prefix
-os.chdir('Data')
+os.chdir('data')
 filelist=os.listdir(".")
 filelist.sort()
 datename=filelist[0]

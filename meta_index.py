@@ -20,7 +20,7 @@ ax.set_ylim(-90,90)
 os.chdir('index_archive')
 filelist=os.listdir(".")
 filelist.sort()
-print(filelist)
+#print(filelist)
 
 #initialize variables
 maxfiles=500;counter=0
@@ -41,7 +41,7 @@ for i in filelist:
     GALLON[0]=GALLON[1];GALLAT[0]=GALLAT[1]
     #ax.scatter(GALLON,GALLAT)
     ax.scatter(GALLON,GALLAT,marker=".",label=(i))
-    ax.legend(loc="best")
+    #ax.legend(loc="best")
 #end reading files and plot data
 
 #Generate a line passing through galactic latitude of zero degrees
