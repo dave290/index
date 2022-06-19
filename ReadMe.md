@@ -3,7 +3,7 @@ Purpose: The Python scripts index.py and meta_index.py create scatterplots showi
 The .kel files are formatted according to NsfIntegrate data collection software for radio astronomy.
 
 index.py
-place .kel or .ast files into the Data subfolder
+place .kel or .ast files into a subfolder labelled "data" (You need to create this empty folder and place it inside of the script-containing folder.)
 
 Creates a single index file (.ind) that lists GLONG, GLAT, RA and DEC values for every .kel file.
 Place this file into the folder labelled "index_archive"
