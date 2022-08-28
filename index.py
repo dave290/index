@@ -139,9 +139,10 @@ for i in range(360):
     y.append(0)
 ax.scatter(x,y,marker=".")
 
-ax.set_title(datename[0:8]+" EL="+elevation+" AZ="+azimuth)
-ax.set_xlabel("GLONG (degrees)")
-ax.set_ylabel("GLAT (degrees)")
+ax.set_title(datename[0:8])
+#ax.set_title(datename[0:8]+" EL="+elevation+" AZ="+azimuth)
+#ax.set_xlabel("GLONG (degrees)")
+#ax.set_ylabel("GLAT (degrees)")
 ax.set_xlim(0,360)
 ax.set_ylim(-60,+90)
 ax.scatter(GALLON,GALLAT,marker=".")
