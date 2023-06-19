@@ -1,7 +1,8 @@
 # seek.py
 # Lists kel files containing data within specified galactic longitude and latitude windows
+# place index file in the 'data' subfolder. The index file is what this program reads
 # python seek.py -glongval 55 -glongwin 2 -glatval 15 -glatwin 2
-# 12/6/2022
+# 6/19/2023
 
 import os
 import collections
